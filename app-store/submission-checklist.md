@@ -17,10 +17,10 @@
 - [x] Submit Tikpal banking and W-9 information
 - [x] Confirm tax and banking information has moved to active
 - [x] Create the iOS app record for `Lock Your` (`6807374179`)
-- [ ] Add Simplified Chinese localization with the product name `占住`
+- [x] Add Simplified Chinese localization with the product name `占住`
 - [ ] Select the China price point closest to, but not above, CNY 1.99 and keep Apple's automatic regional mapping
-- [ ] Upload English and Simplified Chinese metadata (Chinese metadata is required before its independent screenshots can be saved)
-- [ ] Upload the three primary screenshots for each localization (English: four 6.5-inch screenshots uploaded; Simplified Chinese pending)
+- [x] Upload English and Simplified Chinese metadata
+- [x] Upload the three primary screenshots for each localization (four 6.5-inch screenshots uploaded per localization)
 - [ ] Complete App Privacy using `privacy-questionnaire.md`
 - [ ] Complete age rating and export-compliance questions
 - [ ] Paste `review-notes.md` into App Review Information
