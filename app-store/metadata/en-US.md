@@ -1,6 +1,6 @@
 # App Store metadata — English (U.S.)
 
-- Name: `Lock Phone`
+- Name: `LockPhone: take a break`
 - Subtitle: `Put your phone down`
 - Primary category: `Productivity`
 - Secondary category: `Utilities`
