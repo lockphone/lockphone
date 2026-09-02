@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Lock Your quiet orbit</title>
+  <desc id="description">An open warm-orange orbit holding two quiet charcoal bars.</desc>
+  <path
+    d="M 830.75 597.41 A 330 330 0 1 1 745.35 278.65"
+    fill="none"
+    stroke="#F06A3B"
+    stroke-width="128"
+    stroke-linecap="round"
+  />
+  <rect x="371" y="374" width="104" height="276" rx="52" fill="#151513" />
+  <rect x="549" y="374" width="104" height="276" rx="52" fill="#151513" />
+</svg>

@@ -1,0 +1,32 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.p8
+*.mobileprovision
+private_keys/
+
+# JavaScript and Next.js build products
+node_modules/
+api/dist/
+web/.next/
+web/test-results/
+web/playwright-report/
+
+# Xcode and Apple build products
+DerivedData/
+build/
+*.xcarchive/
+*.ipa
+*.dSYM.zip
+ios/LockYour.xcodeproj/xcuserdata/
+ios/LockYour.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Separately licensed production scene media and store uploads
+ios/Resources/Ambient/*.m4a
+ios/Resources/Backgrounds/*.jpg
+app-store/screenshots/
+
+# Editor and operating-system files
+.DS_Store
+*.swp

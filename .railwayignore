@@ -1,0 +1,9 @@
+.DS_Store
+.next
+node_modules
+ios
+web/test-results
+web/playwright-report
+api/tests
+web/tests
+*.xcresult
