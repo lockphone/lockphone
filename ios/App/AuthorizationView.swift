@@ -27,7 +27,7 @@ struct AuthorizationView: View {
                         .font(.largeTitle.weight(.bold))
                     Text(AppCopy.text(
                         zh: "占住需要屏幕使用权限，才能替你挡住其他 App。你的选择只保存在这台 iPhone 上。",
-                        en: "Lock Your needs Screen Time access to shield other apps. Your selection stays only on this iPhone."
+                        en: "Lock Phone needs Screen Time access to shield other apps. Your selection stays only on this iPhone."
                     ))
                     .font(.body)
                     .foregroundStyle(.secondary)

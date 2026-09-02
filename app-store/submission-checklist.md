@@ -16,7 +16,7 @@
 - [x] Renew/accept the Paid Apps agreement (Account Holder)
 - [x] Submit Tikpal banking and W-9 information
 - [x] Confirm tax and banking information has moved to active
-- [x] Create the iOS app record for `Lock Your` (`6807374179`)
+- [x] Create the iOS app record for `Lock Phone` (`6807374179`)
 - [x] Add Simplified Chinese localization with the product name `占住`
 - [ ] Select the China price point closest to, but not above, CNY 1.99 and keep Apple's automatic regional mapping
 - [x] Upload English and Simplified Chinese metadata
@@ -32,9 +32,9 @@
 ## Production services
 
 - [x] Implement and test the Cloudflare Email Sending REST adapter
-- [x] Enable and verify `lockyourphone.app` Email Routing and Email Sending DNS
+- [ ] Verify `lockphone.app` Email Sending DNS and set `hello@lockphone.app` as the production sender
 - [x] Create a least-privilege `Email Sending: Edit` Cloudflare API token
-- [x] Configure `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, and `verify@lockyourphone.app` on `lock-api`
+- [ ] Configure `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, and `hello@lockphone.app` on `lock-api`
 - [x] Deploy the Cloudflare adapter and updated website to Railway
 - [ ] Verify English and Chinese OTP delivery and deep-link return (both localized messages arrived in the production inbox; App deep-link return remains)
 - [x] Request App Store Connect API access

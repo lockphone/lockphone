@@ -9,7 +9,7 @@ const pages = {
   en: {
     privacy: {
       title: "Privacy",
-      intro: "Lock Your collects only the information needed to register time, restore an account, and operate the public leaderboard.",
+      intro: "Lock Phone collects only the information needed to register time, restore an account, and operate the public leaderboard.",
       sections: [
         ["What we collect", "A verified email address, a public nickname and system avatar choice, device identifiers used for security, and the start and end times of locking sessions."],
         ["What stays on your phone", "Your Family Controls selections are privacy-preserving Apple tokens. They remain in the App Group on your device and are never uploaded."],
@@ -19,7 +19,7 @@ const pages = {
     },
     terms: {
       title: "Terms",
-      intro: "Lock Your is a focus aid built with Apple’s Family Controls frameworks. It does not lock the iPhone operating system itself.",
+      intro: "Lock Phone is a focus aid built with Apple’s Family Controls frameworks. It does not lock the iPhone operating system itself.",
       sections: [
         ["Use of the service", "Use the app only on devices and accounts you control. You may revoke Screen Time authorization from iOS Settings at any time."],
         ["Leaderboard", "Rankings are based on validated session records and may be corrected when duplicated, manipulated, or technically invalid activity is detected."],
@@ -29,15 +29,15 @@ const pages = {
     },
     support: {
       title: "Support",
-      intro: "If Lock Your is not behaving as expected, the checks below solve the most common cases.",
+      intro: "If Lock Phone is not behaving as expected, the checks below solve the most common cases.",
       sections: [
-        ["Apps are not blocked", "Open Lock Your and grant Screen Time authorization. If permission was revoked in Settings, the app will show the authorization screen again."],
+        ["Apps are not blocked", "Open Lock Phone and grant Screen Time authorization. If permission was revoked in Settings, the app will show the authorization screen again."],
         ["Change the allowed app", "End the current session by holding the stop control for two seconds. You can change the single allowlist slot before starting again."],
         ["Email code did not arrive", "Check spam, wait sixty seconds, and resend. Codes expire after ten minutes."],
         ["Contact", "Email hello@lockphone.app. Include your app version and iOS version, but never send a verification code or token."],
       ],
     },
-    back: "Back to Lock Your",
+    back: "Back to Lock Phone",
     updated: "Last updated September 1, 2026",
   },
   zh: {

@@ -172,7 +172,7 @@ struct AccountView: View {
 
                 Text(AppCopy.text(
                     zh: "邮件里的“返回占住”会带你回到这里；链接不包含验证码。",
-                    en: "Use “Return to Lock Your” in the email to come back here. The link never contains your code."
+                    en: "Use “Return to Lock Phone” in the email to come back here. The link never contains your code."
                 ))
                 .font(.caption)
                 .foregroundStyle(.secondary)

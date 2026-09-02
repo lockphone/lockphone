@@ -53,7 +53,7 @@ struct LockScreenView: View {
     private var header: some View {
         HStack {
             VStack(alignment: .leading, spacing: 2) {
-                Text(AppCopy.text(zh: "占住", en: "LOCK YOUR"))
+                Text(AppCopy.text(zh: "占住", en: "LOCK PHONE"))
                     .font(.caption.weight(.black))
                     .tracking(2)
                 Text(model.scene.name)

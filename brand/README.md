@@ -1,4 +1,4 @@
-# Lock Your brand mark
+# Lock Phone brand mark
 
 The primary symbol is the **quiet orbit**: an open warm-orange enclosure holding two calm pause bars. It is intentionally language-neutral and remains legible at favicon size.
 

@@ -25,7 +25,7 @@ final class LockYourTests: XCTestCase {
     @MainActor
     func testEmailVerificationDeepLinkRequestsTheReturnRoute() {
         let model = AppModel()
-        model.handleOpenURL(URL(string: "lockyour://verify-email")!)
+        model.handleOpenURL(URL(string: "lockphone://verify-email")!)
         XCTAssertTrue(model.emailVerificationReturnRequested)
 
         model.consumeEmailVerificationReturn()

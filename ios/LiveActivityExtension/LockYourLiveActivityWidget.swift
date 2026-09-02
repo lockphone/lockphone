@@ -11,7 +11,7 @@ struct LockYourLiveActivityWidget: Widget {
             LockScreenActivity(context: context)
                 .activityBackgroundTint(activityInk)
                 .activitySystemActionForegroundColor(.white)
-                .widgetURL(URL(string: "lockyour://session"))
+                .widgetURL(URL(string: "lockphone://session"))
         } dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.leading) {
@@ -40,7 +40,7 @@ struct LockYourLiveActivityWidget: Widget {
             } minimal: {
                 Circle().fill(activityOrange).frame(width: 9, height: 9)
             }
-            .widgetURL(URL(string: "lockyour://session"))
+            .widgetURL(URL(string: "lockphone://session"))
         }
     }
 }
@@ -78,4 +78,3 @@ private struct LockScreenActivity: View {
 struct LockYourWidgetBundle: WidgetBundle {
     var body: some Widget { LockYourLiveActivityWidget() }
 }
-

@@ -20,7 +20,7 @@ final class LockYourShieldConfiguration: ShieldConfigurationDataSource {
             icon: UIImage(systemName: "hourglass.bottomhalf.filled"),
             title: .init(text: chinese ? "这部手机已经被占住" : "This phone is occupied", color: paper),
             subtitle: .init(
-                text: chinese ? "回到「占住」长按两秒，才能结束这段时间。" : "Return to Lock Your and hold for two seconds to finish this session.",
+                text: chinese ? "回到「占住」长按两秒，才能结束这段时间。" : "Return to Lock Phone and hold for two seconds to finish this session.",
                 color: muted
             ),
             primaryButtonLabel: .init(text: chinese ? "继续占住" : "Keep holding", color: background),
@@ -29,4 +29,3 @@ final class LockYourShieldConfiguration: ShieldConfigurationDataSource {
         )
     }
 }
-

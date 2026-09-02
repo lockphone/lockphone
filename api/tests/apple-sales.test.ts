@@ -6,7 +6,7 @@ import { AppleSalesImporter } from "../src/apple-sales.js";
 import type { Config } from "../src/config.js";
 import type { Database } from "../src/database.js";
 
-test("sales importer sends Apple's dashed report date and keeps only Lock Your rows", async () => {
+test("sales importer sends Apple's dashed report date and keeps only Lock Phone rows", async () => {
   const { privateKey } = generateKeyPairSync("ec", { namedCurve: "P-256" });
   const privateKeyPem = privateKey.export({ format: "pem", type: "pkcs8" }).toString();
   const config = {

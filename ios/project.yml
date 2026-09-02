@@ -12,7 +12,7 @@ settings:
     IPHONEOS_DEPLOYMENT_TARGET: "17.0"
     TARGETED_DEVICE_FAMILY: "1"
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    CURRENT_PROJECT_VERSION: "2"
     APP_ATTEST_ENVIRONMENT: development
     ENABLE_USER_SCRIPT_SANDBOXING: YES
     ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
@@ -38,12 +38,12 @@ targets:
     info:
       path: App/Info.plist
       properties:
-        CFBundleDisplayName: Lock Your
-        CFBundleName: LockYour
+        CFBundleDisplayName: Lock Phone
+        CFBundleName: LockPhone
         CFBundleURLTypes:
           - CFBundleTypeRole: Editor
-            CFBundleURLName: Lock Your
-            CFBundleURLSchemes: [lockyour]
+            CFBundleURLName: Lock Phone
+            CFBundleURLSchemes: [lockphone]
         NSSupportsLiveActivities: true
         UIBackgroundModes: [audio]
         NSAppTransportSecurity:
@@ -96,7 +96,7 @@ targets:
     info:
       path: MonitorExtension/Info.plist
       properties:
-        CFBundleDisplayName: Lock Your Monitor
+        CFBundleDisplayName: Lock Phone Monitor
         NSExtension:
           NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
           NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).LockYourMonitorExtension
@@ -132,7 +132,7 @@ targets:
     info:
       path: ShieldConfigurationExtension/Info.plist
       properties:
-        CFBundleDisplayName: Lock Your Shield
+        CFBundleDisplayName: Lock Phone Shield
         NSExtension:
           NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
           NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).LockYourShieldConfiguration
@@ -166,7 +166,7 @@ targets:
     info:
       path: LiveActivityExtension/Info.plist
       properties:
-        CFBundleDisplayName: Lock Your Live Activity
+        CFBundleDisplayName: Lock Phone Live Activity
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
         NSSupportsLiveActivities: true

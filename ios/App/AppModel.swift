@@ -314,7 +314,7 @@ final class AppModel: ObservableObject {
     }
 
     func handleOpenURL(_ url: URL) {
-        guard url.scheme?.lowercased() == "lockyour",
+        guard url.scheme?.lowercased() == "lockphone",
               url.host?.lowercased() == "verify-email" else { return }
         emailVerificationReturnRequested = true
         accountError = nil

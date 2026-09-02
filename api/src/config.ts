@@ -11,7 +11,7 @@ const schema = z.object({
   OTP_SECRET: z.string().min(32),
   CLOUDFLARE_ACCOUNT_ID: z.string().min(1).optional(),
   CLOUDFLARE_API_TOKEN: z.string().min(1).optional(),
-  EMAIL_FROM: z.string().email().default("verify@lockyourphone.app"),
+  EMAIL_FROM: z.string().email().default("hello@lockphone.app"),
   APP_ATTEST_MODE: z.enum(["disabled", "development", "production"]).default("development"),
   APPLE_TEAM_ID: z.string().default("V6MKVNS45G"),
   APPLE_BUNDLE_ID: z.string().default("www.coreader.studio.lockyour"),

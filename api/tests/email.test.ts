@@ -14,7 +14,7 @@ const config: Config = {
   OTP_SECRET: "c".repeat(32),
   CLOUDFLARE_ACCOUNT_ID: "account-id",
   CLOUDFLARE_API_TOKEN: "secret-token",
-  EMAIL_FROM: "verify@lockyourphone.app",
+  EMAIL_FROM: "hello@lockphone.app",
   APP_ATTEST_MODE: "disabled",
   APPLE_TEAM_ID: "V6MKVNS45G",
   APPLE_BUNDLE_ID: "www.coreader.studio.lockyour",
@@ -41,10 +41,10 @@ test("Cloudflare sender posts the bilingual OTP without exposing credentials in 
   const payload = JSON.parse(String(calledInit?.body));
   assert.deepEqual(
     { from: payload.from, to: payload.to, subject: payload.subject },
-    { from: "verify@lockyourphone.app", to: "reader@example.com", subject: "你的占住验证码" },
+    { from: "hello@lockphone.app", to: "reader@example.com", subject: "你的占住验证码" },
   );
   assert.match(payload.html, /123456/);
-  assert.match(payload.html, /href="lockyour:\/\/verify-email"/);
-  assert.match(payload.text, /lockyour:\/\/verify-email/);
+  assert.match(payload.html, /href="lockphone:\/\/verify-email"/);
+  assert.match(payload.text, /lockphone:\/\/verify-email/);
   assert.doesNotMatch(String(calledInit?.body), /secret-token/);
 });

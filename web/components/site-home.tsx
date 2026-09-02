@@ -13,7 +13,7 @@ const content = {
     navHow: "How it works",
     eyebrow: "One useful app. Nothing else.",
     titleA: "Lock your",
-    titleB: "iPhone.",
+    titleB: "phone.",
     body: "Keep the one app you came for. Lock out every other distraction, let the hours add up, and make your attention visible.",
     cta: "Coming to the App Store",
     explore: "See who is still holding on",
@@ -86,7 +86,7 @@ export function SiteHome({ locale }: { locale: Locale }) {
   return (
     <main lang={locale === "zh" ? "zh-CN" : "en"}>
       <nav className="nav shell">
-        <Link href={prefix || "/"} className="brand"><span className="brand-mark"><Image src="/brand-mark.svg" alt="" width={36} height={36} aria-hidden="true" /></span><span>{locale === "zh" ? "占住" : "Lock Your"}</span></Link>
+        <Link href={prefix || "/"} className="brand"><span className="brand-mark"><Image src="/brand-mark.svg" alt="" width={36} height={36} aria-hidden="true" /></span><span>{locale === "zh" ? "占住" : "Lock Phone"}</span></Link>
         <div className="nav-links">
           <a href="#live">{c.navLive}</a>
           <a href="#how">{c.navHow}</a>
@@ -114,7 +114,7 @@ export function SiteHome({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className="manifesto shell"><p>{c.quote}</p><a href="https://github.com/lockphone" target="_blank" rel="noreferrer">{c.source}<ArrowUpRight size={16} /></a></section>
+      <section className="manifesto shell"><p>{c.quote}</p><a href="https://github.com/lockphone/lockphone" target="_blank" rel="noreferrer">{c.source}<ArrowUpRight size={16} /></a></section>
 
       <section className="how shell" id="how">
         <header><p className="section-number">01 — 03</p><h2>{c.howTitle}</h2></header>
@@ -137,7 +137,7 @@ export function SiteHome({ locale }: { locale: Locale }) {
           <Link href={`${prefix}/terms`}>{c.terms}</Link>
           <Link href={`${prefix}/support`}>{c.support}</Link>
           <a href="mailto:hello@lockphone.app">Email</a>
-          <a href="https://github.com/lockphone" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/lockphone/lockphone" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://x.com/lockphoneapp" target="_blank" rel="noreferrer">X</a>
           <a href="https://www.tiktok.com/@lockphoneapp" target="_blank" rel="noreferrer">TikTok</a>
           <a href="https://www.reddit.com/user/lockphoneapp/" target="_blank" rel="noreferrer">Reddit</a>

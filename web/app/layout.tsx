@@ -6,19 +6,19 @@ const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
   title: {
-    default: "Lock Your — Sometimes your phone just needs to be quiet",
-    template: "%s · Lock Your",
+    default: "Lock Phone — Sometimes your phone just needs to be quiet",
+    template: "%s · Lock Phone",
   },
   description: "You don't always need to be productive. Sometimes your phone just needs to be quiet.",
   openGraph: {
-    title: "Lock Your",
+    title: "Lock Phone",
     description: "Sometimes your phone just needs to be quiet.",
     type: "website",
     images: [{ url: "/hero-focus-room.png", width: 1536, height: 1024 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lock Your",
+    title: "Lock Phone",
     description: "Sometimes your phone just needs to be quiet.",
     images: ["/hero-focus-room.png"],
   },

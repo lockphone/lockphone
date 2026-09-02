@@ -1,4 +1,4 @@
-# 占住 / Lock Your
+# 占住 / Lock Phone
 
 An independent iOS focus app and bilingual public live dashboard.
 
@@ -11,6 +11,7 @@ The complete product is open source so its public leaderboard rules can be inspe
 ## Public project
 
 - Website: https://lockphone.app
+- Source: https://github.com/lockphone/lockphone
 - Contact: hello@lockphone.app
 - X: https://x.com/lockphoneapp
 - TikTok: https://www.tiktok.com/@lockphoneapp
