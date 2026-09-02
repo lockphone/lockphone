@@ -19,12 +19,12 @@
 - [x] Create the iOS app record for `Lock Your` (`6807374179`)
 - [ ] Add Simplified Chinese localization with the product name `占住`
 - [ ] Select the China price point closest to, but not above, CNY 1.99 and keep Apple's automatic regional mapping
-- [ ] Upload English and Simplified Chinese metadata
-- [ ] Upload the three 6.9-inch screenshots for each localization
+- [ ] Upload English and Simplified Chinese metadata (Chinese metadata is required before its independent screenshots can be saved)
+- [ ] Upload the three primary screenshots for each localization (English: four 6.5-inch screenshots uploaded; Simplified Chinese pending)
 - [ ] Complete App Privacy using `privacy-questionnaire.md`
 - [ ] Complete age rating and export-compliance questions
 - [ ] Paste `review-notes.md` into App Review Information
-- [ ] Upload the signed build and complete TestFlight compliance
+- [x] Deliver signed build `1.0 (1)` to TestFlight (Apple processing and TestFlight compliance pending)
 - [x] Publish a signed internal-testing IPA with Coot
 - [ ] Run internal IPA/TestFlight verification on a physical iPhone
 - [ ] Submit the selected build for review
@@ -41,7 +41,7 @@
 - [x] Create and configure the least-privilege sales-report API key (`Y9JUNU9J36`)
 - [x] Verify idempotent sales report import and WebSocket snapshot updates
 - [ ] Verify a real refund correction after report data becomes available
-- [ ] Switch App and API App Attest from `development` to `production`
+- [x] Switch App and API App Attest from `development` to `production`
 - [ ] Replace the website's “Coming soon” CTA with the final App Store URL
 
 ## Brand and open source
@@ -50,5 +50,5 @@
 - [x] Apply the Logo to the iOS App Icon, website header, favicon, and Apple touch icon
 - [x] Add the final English and Chinese brand lines to the website
 - [x] Add `hello@lockphone.app`, GitHub, X, TikTok, and Reddit links to the public website
-- [ ] Initialize the public repository and publish the complete source under `https://github.com/lockphone`
-- [ ] Choose an open-source license and run a secrets/history audit before the first push
+- [x] Initialize the public repository and publish the complete source under `https://github.com/lockphone`
+- [x] Choose an open-source license and run a secrets/history audit before the first push
