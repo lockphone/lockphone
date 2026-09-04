@@ -37,4 +37,7 @@
 
 你选择了哪些 App 永远不会离开 iPhone。占住只会把 Apple 提供的隐私保护型 Family Controls Token 保存在本机 App Group 中。邮箱验证不会阻挡锁机，仅在加入公开排行榜或跨设备恢复数据时需要。
 
+定价：
+占住为一次性付费下载，不含订阅或 App 内购买；App Store 显示的价格即为你所在地区的完整价格。
+
 占住是使用 Apple Family Controls 构建的专注工具。你可以随时返回 App，长按结束按钮两秒结束本轮，也可以在 iOS 设置中撤销屏幕使用时间权限。

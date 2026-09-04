@@ -37,4 +37,7 @@ Features:
 
 Your selected apps never leave your iPhone. Lock Phone stores only Apple's privacy-preserving Family Controls tokens in its local App Group. Email verification is optional for focusing and is required only for public leaderboard participation and cross-device recovery.
 
+Pricing:
+Lock Phone is a one-time paid download. It has no subscriptions or in-app purchases. The price displayed in the App Store is the full price for your region.
+
 Lock Phone is a focus aid built with Apple's Family Controls frameworks. You can end a session at any time by returning to the app and holding the finish control for two seconds, or revoke Screen Time permission in iOS Settings.

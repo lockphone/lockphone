@@ -34,3 +34,22 @@ Connect keys, or user data. See [SECURITY.md](SECURITY.md) for reporting.
 - `web/` — Next.js public site in English (`/`) and Simplified Chinese (`/zh`).
 
 The new services do not import or modify Coreader runtime code or data.
+
+## GitHub workflow
+
+GitHub is the canonical source of truth for this project. Start every work
+session by fetching `origin` and fast-forwarding the local `main`; do new work
+on a short-lived branch, merge it back into `main`, and push the resulting
+commit before handing the project to another machine or agent.
+
+```bash
+git fetch --prune origin
+git switch main
+git pull --ff-only origin main
+```
+
+Do not copy `node_modules`, `.next`, `dist`, Xcode build products, or editor
+state between machines. Reinstall dependencies from `package-lock.json` with
+`npm ci`. Separately licensed production media and App Store screenshots are
+transferred out of band and remain ignored by Git; keep their repository paths
+unchanged after restoring them. Never commit `.env` files or signing material.

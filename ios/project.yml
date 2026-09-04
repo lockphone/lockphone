@@ -12,7 +12,7 @@ settings:
     IPHONEOS_DEPLOYMENT_TARGET: "17.0"
     TARGETED_DEVICE_FAMILY: "1"
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "2"
+    CURRENT_PROJECT_VERSION: "4"
     APP_ATTEST_ENVIRONMENT: development
     ENABLE_USER_SCRIPT_SANDBOXING: YES
     ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
@@ -40,11 +40,14 @@ targets:
       properties:
         CFBundleDisplayName: Lock Phone
         CFBundleName: LockPhone
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleURLTypes:
           - CFBundleTypeRole: Editor
             CFBundleURLName: Lock Phone
             CFBundleURLSchemes: [lockphone]
         NSSupportsLiveActivities: true
+        ITSAppUsesNonExemptEncryption: false
         UIBackgroundModes: [audio]
         NSAppTransportSecurity:
           NSAllowsLocalNetworking: true
@@ -70,7 +73,6 @@ targets:
         Release:
           API_BASE_URL: https://lock-api-production.up.railway.app
           APP_ATTEST_ENVIRONMENT: production
-          CODE_SIGN_IDENTITY: Apple Distribution
     dependencies:
       - target: LockYourMonitor
         embed: true
@@ -97,6 +99,8 @@ targets:
       path: MonitorExtension/Info.plist
       properties:
         CFBundleDisplayName: Lock Phone Monitor
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
           NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).LockYourMonitorExtension
@@ -111,9 +115,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: www.coreader.studio.lockyour.monitor
         PRODUCT_NAME: LockYourMonitor
         SKIP_INSTALL: YES
-      configs:
-        Release:
-          CODE_SIGN_IDENTITY: Apple Distribution
     dependencies:
       - sdk: FamilyControls.framework
       - sdk: ManagedSettings.framework
@@ -133,6 +134,8 @@ targets:
       path: ShieldConfigurationExtension/Info.plist
       properties:
         CFBundleDisplayName: Lock Phone Shield
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
           NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).LockYourShieldConfiguration
@@ -147,9 +150,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: www.coreader.studio.lockyour.shieldconfiguration
         PRODUCT_NAME: LockYourShieldConfiguration
         SKIP_INSTALL: YES
-      configs:
-        Release:
-          CODE_SIGN_IDENTITY: Apple Distribution
     dependencies:
       - sdk: ManagedSettings.framework
       - sdk: ManagedSettingsUI.framework
@@ -167,6 +167,8 @@ targets:
       path: LiveActivityExtension/Info.plist
       properties:
         CFBundleDisplayName: Lock Phone Live Activity
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
         NSSupportsLiveActivities: true
@@ -180,9 +182,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: www.coreader.studio.lockyour.liveactivity
         PRODUCT_NAME: LockYourLiveActivity
         SKIP_INSTALL: YES
-      configs:
-        Release:
-          CODE_SIGN_IDENTITY: Apple Distribution
     dependencies:
       - sdk: ActivityKit.framework
       - sdk: WidgetKit.framework
